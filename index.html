@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,700">
+  <link rel="stylesheet" href="./caraousel.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="events.css">
+  <link rel="stylesheet" href="alumni_news.css">
+  <!-- Bootstrap CSS Stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementsById("navbar");
+
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+  </script>
+
+</head>
+
+<body>
+  <!-- Header -->
+
+  <div class="loader"></div>
+  <div class="header">
+    <div class="left">
+      <img src="https://vaave.s3.amazonaws.com/assets/site_content/151532595/logo-cms.png " class="logo">
+      <!-- <p class="text">Indian Institute of<br> Information Technology,<br> Allahabad</p> -->
+    </div>
+    <div class="right">
+      <img src="Images/logo.png" class="logo2">
+    </div>
+  </div>
+  <!-- Navbar -->
+  <nav style="margin-top: 0;" class="navbar  navbar-expand-md bg-white navbar-light">
+
+    <button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <br>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item"><a href="" class="nav-link text-dark">About</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-dark">Donations</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-dark">Chapters</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-dark">News</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-dark">Events</a></li>
+        <li style="border: none;" class="nav-item"><a href="" class="nav-link text-dark">Helpdesk</a></li>
+      </ul>
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item"><a href="" class="nav-link text-dark">Login</a></li>
+        <li style="border: none;" class="nav-item"><a href="" class="nav-link text-dark">Register</a></li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li style="border: none;" class="nav-item"><a href="" class="nav-link text-dark"><i
+              class="fa-regular fa-bell fa-lg"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+
+  <div class="slider py-0" id="slider1">
+    <!-- Slides -->
+    <div style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30256/1200_110627-8240-Myst.jpg)">
+    </div>
+    <div style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30256/Gif-pont-lueur-600.gif)"></div>
+    <div style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30256/1200_Sharpened-version.jpg)">
+    </div>
+    <div style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30256/jungle.jpg)"></div>
+    <div style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/30256/1200_bodie-11.jpg)"></div>
+    <!-- The Arrows -->
+    <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+        <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+      </svg></i>
+    <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+        <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) ">
+        </path>
+      </svg></i>
+    </span>
+  </div>
+
+  <!-- The Arrows -->
+  <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+      <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+    </svg></i>
+  <i class="right" class="arrows" style="z-index:2; position:absolute;">
+    <svg viewBox="0 0 100 100">
+      <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path>
+    </svg></i>
+  </div>
+
+  </div>
+
+
+
+
+  <!-- Main-content -->
+  <div class="container">
+
+    <!-- Insert Pratiksh Component here -->
+
+    <div class="row gx-3 justify-content-around ">
+      <div class="col-9 col-md-5" style="background: rgb(253, 252, 252);">
+        <h1 style="color: #2E8A99; font-size: 55px;">ALUMNI NEWS</h1>
+
+
+        <div class="alumni-news">
+          <div class="news-content" id="newsContent">
+
+            <!-- ---------------------------------- -->
+            <div class="news-item">
+              <div class="news-details">
+                <h3>Pratham Bhatia got package of 2cr at google </h3>
+                <p>Class of 2021</p>
+                <p class="moretext1" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus eget libero euismod, ultrices est et, eleifend lorem.</p>
+                <a class="moreless-button1 read-more" style="color: #007bff;">Read more</a>
+              </div>
+            </div>
+
+
+            <!-- ---------------------------------- -->
+              <div class="news-item">
+                <div class="news-details">
+                  <h3>Pratham Bhatia got package of 2cr at google </h3>
+                  <p>Class of 2021</p>
+                  <p class="moretext2" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus eget libero euismod, ultrices est et, eleifend lorem.</p>
+                  <a class="moreless-button2 read-more" style="color: #007bff;">Read more</a>
+                </div>
+              </div>
+
+            <!-- ---------------------------------- -->
+            <div class="news-item">
+              <div class="news-details">
+                <h3>Pratham Bhatia got package of 2cr at google </h3>
+                <p>Class of 2021</p>
+                <p class="moretext3" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus eget libero euismod, ultrices est et, eleifend lorem.</p>
+                <a class="moreless-button3 read-more" style="color: #007bff;">Read more</a>
+              </div>
+            </div>
+            <!-- ---------------------------------- -->
+
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-9 col-md-4 events" style="background: white;">
+        <h1 style="color: #2E8A99; font-size: 55px;">EVENTS</h1>
+        <div class="scroll2">
+
+          <div class="eventbox1 row" style="margin-right: 10px;">
+            <div class="event-list" id="eventList">
+              <div class="event-item" onclick="openEventPage('event1')">
+                <div class="flip-container">
+                  <div class="flipper">
+                    <div class="front">
+                      <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="Event 1">
+                    </div>
+                    <div class="back">
+
+                      <!-- <img src="event1_back.jpg" alt="Event 1"> -->
+
+                      <div class="event-list2" id="eventList2">
+                        <div class="event-item2" onclick="openEventPage('event1')">
+                          <!-- <img src="event1.jpg" alt="Event 1"> -->
+                          <a style="text-decoration: none; color: rgb(21, 135, 173);" href="#">
+                            <h3>Bhatia ki Shaaadi</h3>
+                          </a>
+                          
+                          <p>Date: June 20, 2023</p>
+                          <p>Time: 7:00 PM</p>
+                          <p>Information: Mrs Anupama weds with Pratham Bhatia at AAA in IIITA. </p>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ------------------ -->
+
+
+          <div class="eventbox1 row" style="margin-right: 10px;">
+            <div class="event-list" id="eventList">
+              <div class="event-item" onclick="openEventPage('event1')">
+                <div class="flip-container">
+                  <div class="flipper">
+                    <div class="front">
+                      <img
+                        src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="Event 1">
+                    </div>
+                    <div class="back">
+
+                      <!-- <img src="event1_back.jpg" alt="Event 1"> -->
+
+                      <div class="event-list2" id="eventList2">
+                        <div class="event-item2" onclick="openEventPage('event1')">
+                          <!-- <img src="event1.jpg" alt="Event 1"> -->
+                          <a style="text-decoration: none; color: rgb(21, 135, 173);" href="#">
+                            <h3>Bhatia Ka HoneyMoon</h3>
+                          </a>
+                          <p>Date: June 27, 2023</p>
+                          <p>Time: 8:00 AM</p>
+                          <p>Information: Mr Pratham Bhatia ad Mrs Anupama went to Directors office fot their HoneyMoon.
+                            Chief Guest was Mr. Ritesh Kumar and Mr. Tushar.</p>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------ -->
+
+          <div class="eventbox1 row" style="margin-right: 10px;">
+            <div class="event-list" id="eventList">
+              <div class="event-item" onclick="openEventPage('event1')">
+                <div class="flip-container">
+                  <div class="flipper">
+                    <div class="front">
+                      <img src="https://tinypng.com/images/social/website.jpg" alt="Event 1">
+                    </div>
+                    <div class="back">
+
+                      <!-- <img src="event1_back.jpg" alt="Event 1"> -->
+
+                      <div class="event-list2" id="eventList2">
+                        <div class="event-item2" onclick="openEventPage('event1')">
+                          <!-- <img src="event1.jpg" alt="Event 1"> -->
+                          <a style="text-decoration: none; color: rgb(21, 135, 173);" href="#">
+                            <h3>Bhatia ji ka bachha hua</h3>
+                          </a>
+                          <p>Date: June 20, 2023</p>
+                          <p>Time: 7:00 PM</p>
+                          <p>Information: Mr Pratham Bhatia gave birth to his son. Chief Guest was Mr Hemant here.</p>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------- -->
+
+
+          <div class="eventbox1 row" style="margin-right: 10px;">
+            <div class="event-list" id="eventList">
+              <div class="event-item" onclick="openEventPage('event1')">
+                <div class="flip-container">
+                  <div class="flipper">
+                    <div class="front">
+                      <img src="https://tinypng.com/images/social/website.jpg" alt="Event 1">
+                    </div>
+                    <div class="back">
+
+                      <!-- <img src="event1_back.jpg" alt="Event 1"> -->
+
+                      <div class="event-list2" id="eventList2">
+                        <div class="event-item2" onclick="openEventPage('event1')">
+                          <!-- <img src="event1.jpg" alt="Event 1"> -->
+                          <a style="text-decoration: none; color: rgb(21, 135, 173);" href="#">
+                            <h3>Bhatia ji ka bachha hua</h3>
+                          </a>
+                          <p>Date: June 20, 2023</p>
+                          <p>Time: 7:00 PM</p>
+                          <p>Information: Mr Pratham Bhatia gave birth to his son. Chief Guest was Mr Hemant here.</p>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ------------------ -->
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- Pratiksh component finished  -->
+    <!-- -------------------------------------------------  -->
+
+
+
+
+    <h1>A word from the Director</h1>
+    <!-- <div class="director d-flex ">
+        <div class="director-img p-2 align-self-center">
+          <img src="Images/pic1.jpg">
+        </div>
+        <div class="director-text p-2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum vero nostrum quaerat quidem impedit
+            eligendi cumque dolor exercitationem quo vitae doloribus ipsa recusandae itaque sunt odio harum id inventore
+            delectus, omnis nam? Accusantium vel sunt dolore voluptates soluta at illo dolorum dignissimos eveniet aliquid
+            iure, illum nobis fugit harum quo. Repellendus, necessitatibus itaque laboriosam dolor doloribus non
+            reprehenderit ipsum iure ut, unde illum, molestiae maxime in quasi dolore distinctio esse rem facere
+            voluptates. Labore, libero deleniti at ipsum vero vel, velit minus perferendis enim repudiandae autem minima
+            corporis voluptatum praesentium dolore eligendi. Minus, repudiandae! Eius officia, eveniet est qui eos
+            distinctio et id consequuntur atque nobis minus, ullam maxime necessitatibus fuga, ipsa accusamus mollitia
+            consectetur magni. Ex optio vitae et modi error recusandae accusamus, sunt animi nulla voluptas sint assumenda
+            facilis dignissimos est ut neque, inventore nostrum quisquam distinctio reiciendis minima fugit, deserunt
+            maiores. Voluptatum natus laudantium animi eveniet!</p>
+        </div>
+      </div> -->
+    <div class="row director d-flex align-items-center">
+      <div class="col director-img p-2 flex-wrap-0">
+        <img src="Images/pic1.jpg">
+      </div>
+      <div class="col flex-grow-1 ms-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum vero nostrum quaerat quidem impedit
+        eligendi cumque dolor exercitationem quo vitae doloribus ipsa recusandae itaque sunt odio harum id inventore
+        delectus, omnis nam? Accusantium vel sunt dolore voluptates soluta at illo dolorum dignissimos eveniet aliquid
+        iure, illum nobis fugit harum quo. Repellendus, necessitatibus itaque laboriosam dolor doloribus non
+        reprehenderit ipsum iure ut, unde illum, molestiae maxime in quasi dolore distinctio esse rem facere
+        voluptates. Labore, libero deleniti at ipsum vero vel, velit minus perferendis enim repudiandae autem minima
+        corporis voluptatum praesentium dolore eligendi. Minus, repudiandae! Eius officia, eveniet est qui eos
+        distinctio et id consequuntur atque nobis minus, ullam maxime necessitatibus fuga, ipsa accusamus mollitia
+        consectetur magni. Ex optio vitae et modi error recusandae accusamus, sunt animi nulla voluptas sint assumenda
+        facilis dignissimos est ut neque, inventore nostrum quisquam distinctio reiciendis minima fugit, deserunt
+        maiores. Voluptatum natus laudantium animi eveniet!
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="gallery d-flex row">
+      <div class="gallery-left col-8 align-self-center">
+        <div class="box">
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+        </div>
+        <div class="box">
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+        </div>
+        <div class="box">
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+        </div>
+        <div class="box">
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+          <div class="smallbox">
+            <img src="Images/pic1.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="gallery-right col align-self-center">
+        <a href="#"><img src="Images/Gallery.png"></a>
+        <p>Gallery</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="py-3">Connect with us : </p>
+    <div class="accounts py-4">
+      <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </div>
+    <div class="accounts py-4">
+      <a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+    </div>
+    <div class="accounts py-4">
+      <a href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+    </div>
+    <div class="accounts py-4">
+      <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </div>
+
+  </footer>
+
+  <!-- caraousel js  -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="./caraousel.js"></script>
+  <script>
+    function openEventPage(eventId) {
+      // Replace this with your own logic to open the event-specific page
+      console.log("Opening event page for event ID:", eventId);
+    }
+    $('.moreless-button1').click(function() {
+  $('.moretext1').slideToggle();
+  if ($('.moreless-button1').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button2').click(function() {
+  $('.moretext2').slideToggle();
+  if ($('.moreless-button2').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button3').click(function() {
+  $('.moretext3').slideToggle();
+  if ($('.moreless-button3').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+  </script>
+
+</body>
+
+</html>
