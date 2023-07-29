@@ -27,66 +27,6 @@ body {
     src: url(fonts/StyleScript-Regular.ttf);
 }
 
-/* Header */
-
-
-.header{
-  margin-top: -10px;
-  margin-left: -10px;
-  width: 101%;
-  height: 160px;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-
-  .left{
-
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 2.5rem;
-
-      .logo{/* 
-          width: 150px;
-          height: 150px; 
-          */
-          padding: 1rem;
-          margin-left: 10%;
-          height: 150px;
-          flex-shrink: 0;
-      }
-
-      .text{
-          margin-top: 1rem;
-          font-size: 2rem;
-      }
-
-  }
-
-  /* .left::after{
-      content: '';
-      position: absolute;
-      top: 5px;
-      left: 10rem                                                                                 ;
-      width: 5px;
-      height: 140px;
-      background-color: black;
-  } */
-
-  .right{
-      .logo2{
-          position: absolute;
-          right: 0;
-          margin-right: 10%;
-          width: 150px;
-          height: 150px;
-          flex-shrink: 0;
-      }
-  }
-
-}
-
-
   /* Navbar */
 
   .navbar{
